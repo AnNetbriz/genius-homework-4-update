@@ -1,0 +1,43 @@
+.find-us {
+  padding: 48px 0px;
+}
+.section-find-us-title {
+  padding-bottom: 95px;
+}
+.find-us-container {
+  justify-content: center;
+  display: flex;
+  gap: 32px;
+  margin-bottom: 48px; /* новое */
+}
+.contact-map {
+  flex-shrink: 0;
+  border: none;
+  border-radius: 32px;
+}
+.sign-up {
+  color: var(--color-brend-light);
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+.find-us-forma {
+  padding: 48px 57px;
+  position: relative;
+  width: 100%;
+  max-width: 422px;
+  height: 100%;
+  max-height: 482px;
+  background-color: var(--color-brend-dark);
+  border-radius: 32px;
+}
+
+.sign-up .accent {
+  color: var(--color-brend);
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
