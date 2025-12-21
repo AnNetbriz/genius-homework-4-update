@@ -1,6 +1,6 @@
 .choose {
   position: relative;
-  padding-top: 104px;
+  padding-top: 60px;
 
   &__title {
     margin-bottom: 24px;
@@ -51,8 +51,6 @@
   border-radius: 50%;
 }
 
-
-
 .section-title {
   max-width: 360px;
   margin: 0 auto 24px;
@@ -64,18 +62,12 @@
   text-align: center;
 }
 
-
-
 .background-wave {
-  width: 100%;
-  padding-top: 50px;
+  padding-top: 90px;
   background-image: url("../images/background-choose.png");
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
 }
-
-
 
 @media screen and (min-width: $bp-desktop) {
   .choose {
@@ -84,13 +76,13 @@
 
     &__title {
       margin-bottom: 48px;
-      text-align: left;
     }
 
     &__why-list {
       flex-direction: row;
       gap: 56px;
       margin-bottom: 24px;
+      justify-content: center;
     }
   }
 
@@ -99,4 +91,3 @@
     font-size: 64px;
   }
 }
-

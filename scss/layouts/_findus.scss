@@ -19,6 +19,7 @@
     gap: 24px;
     margin-bottom: 0;
     overflow: visible;
+    align-items: center;
 
     @media screen and (min-width: $bp-desktop) {
       margin-bottom: 48px;
@@ -42,16 +43,12 @@
     max-width: 422px;
     height: 100%;
     max-height: 482px;
-    padding: 42px 24px;
+    padding: 48px 24px;
     background-color: var(--color-brend-dark);
     border-radius: 32px;
     @media screen and (min-width: $bp-desktop) {
       height: 481px;
     }
-  }
-
-  &__form-field-button {
-    margin-bottom: 16px;
   }
 
   &__form-button {
@@ -77,6 +74,7 @@
     &__container {
       flex-direction: row;
       gap: 32px;
+      align-items: center;
     }
 
     &__forma,

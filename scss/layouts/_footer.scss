@@ -1,10 +1,10 @@
 .footer {
   text-align: center;
   background-image: url("../images/background.png");
-  background-color: #011f4a;
+  background-color: #011c44;
   padding: 32px 0 66px;
   position: relative;
-  min-height: 388px;
+  height: 388px;
   font-family: Roboto, sans-serif;
 
   @media screen and (min-width: $bp-desktop) {
@@ -21,6 +21,7 @@
 
   @media screen and (min-width: $bp-desktop) {
     &::after {
+      display: block;
       content: "";
       position: absolute;
       width: 246px;
