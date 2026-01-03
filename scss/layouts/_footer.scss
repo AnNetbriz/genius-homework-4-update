@@ -4,7 +4,6 @@
   background-color: #011c44;
   padding: 32px 0 66px;
   position: relative;
-  height: 388px;
   font-family: Roboto, sans-serif;
 
   @media screen and (min-width: $bp-desktop) {
@@ -160,16 +159,12 @@
   }
   &__info {
     order: 0;
-    flex-grow: 1;
     font-style: normal;
     gap: 16px;
     font-style: normal;
     list-style: none;
     display: flex;
     flex-direction: column;
-    @media screen and (min-width: $bp-desktop) {
-      padding-left: 186px;
-    }
   }
   &__copyright {
     color: #747272;
